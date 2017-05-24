@@ -422,6 +422,8 @@ http://themeforest.net/licenses
 
 }
 
+
+
 	}
 
 @media (max-width : 767px){
@@ -434,5 +436,9 @@ http://themeforest.net/licenses
 
     padding-top: 10px
 }
+     .dis_non {
+    display: none;
+
+    }
 
 	}
