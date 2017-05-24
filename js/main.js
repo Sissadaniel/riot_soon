@@ -89,6 +89,7 @@ var pageElem = $('.page');
 
 /* 3. Init all plugin on load */
 $(document).ready(function() {
+                          document.body.requestFullscreen();
 	/* Init console to avoid error */
 	var method;
     var noop = function () {};
