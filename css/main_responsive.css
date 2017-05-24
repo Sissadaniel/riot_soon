@@ -411,20 +411,28 @@ http://themeforest.net/licenses
 }
 
 
-@media (min-width : 420px){
+@media (min-width : 767px){
     
     .logo_mobile{
         display: none;
     }
 
+    .page-cover {
+    margin-top: 60px;
+
+}
+
 	}
 
-@media (max-width : 420px){
+@media (max-width : 767px){
     
  .page-cover {
     display: none;
 
 }
+    .center-info {
+
+    padding-top: 10px
+}
 
 	}
-    

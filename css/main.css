@@ -891,10 +891,11 @@ strong,
     height: 70%;
     z-index: 0;
     background-image: url(../img/riot_bg.png);
-    background-position: center;
+    background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    top: 25px;
+    top: 20px;
+    margin: auto 0;
 
 }
 
@@ -1969,6 +1970,7 @@ strong,
     max-width: 250px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 120px
 }
 
 .center-info p:first-child {
