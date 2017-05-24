@@ -434,11 +434,15 @@ http://themeforest.net/licenses
 }
     .center-info {
 
-    padding-top: 10px
+    padding-top: 3px
 }
      .dis_non {
     display: none;
 
+    }
+
+    .mobile_padtop{
+        padding-top: 10px;
     }
 
 	}
