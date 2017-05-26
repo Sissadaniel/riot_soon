@@ -888,15 +888,14 @@ strong,
 .page-cover {
     width: 100%;
     position: fixed;
-    height: 70%;
+    height: 55%;
     z-index: 0;
     background-image: url(../img/riot_bg.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    top: 20px;
+    top: 7%;
     margin: auto 0;
-
 }
 
 
@@ -2046,4 +2045,78 @@ strong,
     margin: 0 auto
 }
 
+
+
+.pos_abs {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.arrow1 {
+    position: absolute;
+    top: 6%;
+    left: 4%;
+
+}
+
+.arrow2 {
+    position: absolute;
+    top: 6%;
+    right: 10%;
+}
+
+.arrow3 {
+    position: absolute;
+    bottom : 6%;
+    right: 4%;
+}
+
+.arrow4 {
+    position: absolute;
+    bottom : 6%;
+    left: 4%;
+}
+
+.zig1 {
+    position: absolute;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    top : -4%;
+    left: 8%;
+}
+
+.zig2 {
+    position: absolute;
+    top : 40%;
+    left: -8%;
+}
+.zig3 {
+    position: absolute;
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+    bottom : -8%;
+    left: 60%;
+}
+.zig4 {
+    position: absolute;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    right : -8%;
+    bottom: 60%;
+}
+
+.ex1 {
+    position: absolute;
+    left : 20%;
+    bottom: 6%;
+}
+.ex2 {
+    position: absolute;
+    right : 10%;
+    bottom: 26%;
+}
 
