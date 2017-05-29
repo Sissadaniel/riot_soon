@@ -1289,6 +1289,10 @@ strong,
     color: #000;
 }
 
+h3{
+    font-family: 'Akkurat';
+}
+
 
 /* 6.2 Page and slide animation */
 
@@ -1970,10 +1974,10 @@ strong,
 }
 
 .center-info {
-    max-width: 250px;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 120px
+    max-width: 255px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center-info p:first-child {
@@ -2128,6 +2132,116 @@ strong,
 
     #fp-nav{
         display: none;
-    }
+    };
  }
 
+
+.text_center {
+    text-align: center;
+}
+
+.button_black {
+    background-color: black;
+    height: 35px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+       margin: 3px;
+}
+
+.button_white {
+    background-color: white;
+    width: 170px;
+    height: 70px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #f4ea0b;
+    margin: 2px;
+}
+
+.flex_2 {
+    display: flex;
+    justify-content: center;
+        padding-top: 20px;
+
+
+}
+.flex_3 {
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    flex-wrap: wrap
+}
+
+.contact_width {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.row1_contact {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+pmor {
+
+}
+
+.pmorelos {
+    font-size: 17px;
+}
+
+.qroo {
+    font-size: 12px;
+}
+
+.play_btn {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+a:hover, a:focus {
+    color: #f4ea0b;
+}
+
+
+
+.riot_logo {
+    position: relative;
+    left: -50%;
+    margin-top: 15vh;
+
+}
+
+.abs_pos {
+    position: absolute;
+    left: 50%;
+    width: 65%;
+}
+
+.max_logo {
+    padding-bottom: 20px
+}
+
+.scale_info {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari */
+    transform: scale(1);
+}
+
+#container{
+
+}
+.page_content{
+
+
+}
