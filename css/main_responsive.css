@@ -486,7 +486,7 @@ http://themeforest.net/licenses
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 600px) and (orientation: landscape) {
+@media screen and (min-width: 320px) and (max-width: 740px) and (orientation: landscape) {
     body {
         background-image: url(../img/90_landscape.gif);
         background-size: cover;
