@@ -7,7 +7,7 @@ $(window).on('resize', function () {
 });
 
 
-// Smooth scroll <a> links 
+// Smooth scroll <a> links
 var $root = $('html, body');
 $('a.s-scroll').on('click', function () {
     var href = $.attr(this, 'href');
@@ -188,11 +188,14 @@ $(document).ready(function () {
     /** Init fullpage.js */
     $('#mainpage').fullpage({
         menu: '#qmenu',
-        anchors: ['home', 'register', 'about-us', 'contact'],
+        anchors: ['home', 'register', 'about-us', 'contact','puerto'],
         //        verticalCentered: false,
         //        resize : false,
         //		responsive: 900,
         scrollOverflow: true,
+        autoScrolling: true,
+		fitToSection: false,
+        slidesNavPosition: 'top',
         css3: false,
         navigation: true,
         onLeave: function (index, nextIndex, direction) {
@@ -218,7 +221,7 @@ $(document).ready(function () {
 
 // Email validation text, uncomment below to use them
 /*
-// Email registration 
+// Email registration
 var email_reg_elem = document.getElementById("reg-email");
 email_reg_elem.oninvalid = function(e) {
 	e.target.setCustomValidity("");

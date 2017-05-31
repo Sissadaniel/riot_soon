@@ -146,6 +146,9 @@ http://themeforest.net/licenses
         font-size: 24px;
         border-bottom-width: 5px;
     }
+    .section h3 {
+        font-size: 30px;
+    }
     .page-cent .p-title h2 {
         font-size: 30px;
     }
@@ -426,7 +429,6 @@ http://themeforest.net/licenses
     }
     .center-info {
         margin-top: 3px;
-
     }
     .dis_non {
         display: none;
@@ -438,8 +440,6 @@ http://themeforest.net/licenses
         display: none
     }
 }
-
-
 
 @media (max-width: 1300px) {
     .dis_non2 {
@@ -477,6 +477,9 @@ http://themeforest.net/licenses
     }
     .zig_left {
         left: -10%
+    }
+    .video_fontm {
+        font-size: 12px;
     }
 }
 
@@ -548,14 +551,13 @@ http://themeforest.net/licenses
     .page-cover {
         display: none;
     }
-    .logo_mobile{
+    .logo_mobile {
         display: block;
         margin: auto;
         margin-top: 10px
     }
     .center-info {
         margin-top: 3px;
-
     }
     .dis_non {
         display: none;
@@ -566,13 +568,74 @@ http://themeforest.net/licenses
     .riot_logo {
         display: none
     }
-    .zig2{
+    .zig2 {
         display: none;
     }
-    .ex1{
+    .ex1 {
         display: none;
     }
-    .zig4{
+    .zig4 {
         display: none;
     }
+}
+
+@media (max-width: 619px) {
+    .card_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card_width {
+          margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 374px) {
+    .about_width {
+
+    padding: 18px;
+
+}
+
+    .pad_video {
+    padding: 0px 13px 0px 13px;
+}
+
+    p {
+    margin-bottom: 0.25rem;
+}
+
+    .card_width {
+    margin-top: 5px;
+    margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+            max-width: 278px;
+}
+
+    .card_width h3{
+        display: none;
+    }
+
+    .card_width h2{
+        line-height:normal;
+    }
+
+    .mar_top2 {
+    margin-top: 0px;
+}
+
+    p {
+        font-size: 0.75rem
+    }
+
+    .mar_center{
+            margin-top: 0px;
+    margin-bottom: 7px
+    }
+
+    .mar_price {
+    margin-left: 25px;
+}
+
 }

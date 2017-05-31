@@ -1233,6 +1233,13 @@ strong,
     font-family: 'Akkurat';
 }
 
+h2{
+            font-weight: 600;
+        font-family: 'Akkurat';
+    line-height: 1px;
+    font-size: 40px
+}
+
 
 /* Page general structure */
 
@@ -1291,6 +1298,9 @@ strong,
 
 h3{
     font-family: 'Akkurat';
+    font-weight: 500;
+    font-size: 35px;
+    padding-top: 10px;
 }
 
 
@@ -2021,7 +2031,7 @@ h3{
 }
 
 .center-info p:nth-child(7) {
-    font-size: 39px;
+    font-size: 35px;
     line-height: 40px
 }
 
@@ -2152,6 +2162,22 @@ h3{
        margin: 3px;
 }
 
+.button_black2 {
+    background-color: black;
+    height: 45px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px
+}
+
+
+
 .button_white {
     background-color: white;
     width: 170px;
@@ -2182,6 +2208,31 @@ h3{
     max-width: 550px;
     margin: 0 auto;
 }
+
+      .about_width {
+          max-width: 600px;
+    margin: 0 auto;
+          padding: 40px;
+          background-color: white;
+          border: solid 1px #f4ea0c;
+          position:relative;
+    }
+
+     .card_width {
+          max-width: 310px;
+          padding: 0px 12px 40px 12px;
+          background-color: white;
+          border: solid 1px #f4ea0c;
+          position:relative;
+    }
+
+  .puerto_width {
+          max-width: 600px;
+    margin: 0 auto;
+          background-color: white;
+          border: solid 1px #f4ea0c;
+          position:relative;
+    }
 
 
 
@@ -2244,4 +2295,66 @@ a:hover, a:focus {
 .page_content{
 
 
+}
+
+.pad_about {
+    padding-right: 25px;
+    padding-left: 20px;
+
+}
+
+.pad_puerto {
+    padding-right: 25px;
+    padding-left: 20px;
+
+}
+
+.zig_yel {
+  position: absolute;
+    right: -165px;
+    top:30px;
+}
+
+.mar_top {
+    margin-top: 25px
+}
+.mar_top2 {
+    margin-top: 35px
+}
+
+
+.full_video {
+    width: 100%;
+    height: 300px;
+
+}
+
+.pad_video {
+   padding: 10px 30px 0px 30px;
+}
+
+
+
+.center_text {
+    text-align: center;
+}
+
+.mar_center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.mar_price {
+    margin-left: 40px;
+}
+
+
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 630px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
