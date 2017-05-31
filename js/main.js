@@ -194,7 +194,7 @@ $(document).ready(function () {
         //		responsive: 900,
         scrollOverflow: true,
         autoScrolling: true,
-        touchSensitivity: 50,
+        touchSensitivity: 40,
         bigSectionsDestination: 'top',
         css3: false,
         navigation: true,

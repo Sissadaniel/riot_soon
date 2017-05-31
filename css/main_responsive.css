@@ -255,7 +255,7 @@ http://themeforest.net/licenses
     }
 
     .title_buy {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 }
 
@@ -443,6 +443,19 @@ http://themeforest.net/licenses
     .riot_logo {
         display: none
     }
+
+    .font_smallm{
+        font-size: small;
+    }
+
+    .flex_2 {
+    padding-top: 10px;
+}
+
+     .about_width {
+    padding: 10px;
+}
+
 }
 
 @media (max-width: 1300px) {
@@ -581,6 +594,10 @@ http://themeforest.net/licenses
     .zig4 {
         display: none;
     }
+
+
+
+
 }
 
 @media (max-width: 619px) {
@@ -631,4 +648,5 @@ http://themeforest.net/licenses
     .mar_price {
         margin-left: 25px;
     }
+
 }

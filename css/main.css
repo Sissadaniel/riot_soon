@@ -2330,7 +2330,7 @@ a:hover, a:focus {
 }
 
 .pad_video {
-   padding: 10px 30px 0px 30px;
+   padding: 0px 30px 0px 30px;
 }
 
 
@@ -2345,9 +2345,6 @@ a:hover, a:focus {
     margin-top: 30px;
 }
 
-.mar_price {
-    margin-left: 40px;
-}
 
 
 
@@ -2361,8 +2358,31 @@ a:hover, a:focus {
 
 .title_buy {
     color: black;
-    font-size: 40px;
+    font-size: 23px;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 5px;
+}
+
+.card_width {
+
+    padding: 0px 20px 20px 20px;
+
+}
+
+
+.mar_top2 {
+    margin-top: 0px;
+}
+    .mar_center {
+
+    margin-top: 0px;
+}
+
+.mar_price {
+    margin-left: 25px;
+}
+.pad_left {
+    padding-left: 10px;
+    padding-top: 0px;
 }
