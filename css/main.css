@@ -1996,8 +1996,8 @@ h3{
 }
 
 .center-info p:nth-child(2) {
-    font-size: 57px;
-    line-height: 47px
+    font-size: 50px;
+    line-height: 35px
 }
 
 .center-info p:nth-child(3) {
@@ -2067,8 +2067,8 @@ h3{
 
 .pos_abs {
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 .arrow1 {
@@ -2420,25 +2420,21 @@ a:hover, a:focus {
 }
 
 .card_width p {
-    margin-bottom: 1rem
+    margin: 22px;
 }
 
 .zindexv {
     z-index: 100;
 }
 
-.invisible_layer {
 
-width:100%;
-  position:absolute;
-  top:0;
-  left:0;
-  height:100%;
-  background:transparent;
-  z-index:999;
-}
+
 
 h4{
    font-size:  40px;
     line-height: 35px
+}
+
+.pos_fixed {
+    position: fixed;
 }

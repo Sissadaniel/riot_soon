@@ -93,7 +93,7 @@ var pageElem = $('.page');
 $(document).ready(function () {
 
 
-   /* var pageWidth, pageHeight;
+    /* var pageWidth, pageHeight;
 
     var basePage = {
         width: 800,
@@ -186,35 +186,69 @@ $(document).ready(function () {
     }
 
     /** Init fullpage.js */
-    $('#mainpage').fullpage({
-        menu: '#qmenu',
-        anchors: ['home', 'register', 'about-us', 'contact','puerto'],
-        //        verticalCentered: false,
-        //        resize : false,
-        //		responsive: 900,
-        scrollOverflow: true,
-        autoScrolling: true,
-        touchSensitivity: 10,
-        bigSectionsDestination: 'top',
-        css3: false,
-        navigation: true,
-        onLeave: function (index, nextIndex, direction) {
-            arrowElem.addClass('gone');
-            pageElem.addClass('transition');
-            //			$('.active').removeClass('transition');
-            slideElem.removeClass('transition');
-            isSlide = false;
-        },
-        afterLoad: function (anchorLink, index) {
-            arrowElem.removeClass('gone');
-            pageElem.removeClass('transition');
-            if (isSlide) {
-                slideElem.removeClass('transition');
-            }
-        },
 
-        afterRender: function () {}
-    });
+    if ($(window).width() < 650) {
+        $('#mainpage').fullpage({
+            menu: '#qmenu',
+            anchors: ['home', 'register', 'about-us', 'contact', 'puerto'],
+            //        verticalCentered: false,
+            //        resize : false,
+            //		responsive: 900,
+            scrollOverflow: false,
+            touchSensitivity: 10,
+            bigSectionsDestination: null,
+            css3: false,
+            navigation: false,
+            onLeave: function (index, nextIndex, direction) {
+                arrowElem.addClass('gone');
+                pageElem.addClass('transition');
+                //			$('.active').removeClass('transition');
+                slideElem.removeClass('transition');
+                isSlide = false;
+            },
+            afterLoad: function (anchorLink, index) {
+                arrowElem.removeClass('gone');
+                pageElem.removeClass('transition');
+                if (isSlide) {
+                    slideElem.removeClass('transition');
+                }
+            },
+            afterRender: function () {},
+            autoScrolling: false,
+            fitToSection: false,
+        });
+    } else {
+        $('#mainpage').fullpage({
+            menu: '#qmenu',
+            anchors: ['home', 'register', 'about-us', 'contact', 'puerto'],
+            //        verticalCentered: false,
+            //        resize : false,
+            //		responsive: 900,
+            scrollOverflow: true,
+
+            touchSensitivity: 10,
+            bigSectionsDestination: 'top',
+            css3: false,
+            navigation: false,
+            onLeave: function (index, nextIndex, direction) {
+                arrowElem.addClass('gone');
+                pageElem.addClass('transition');
+                //			$('.active').removeClass('transition');
+                slideElem.removeClass('transition');
+                isSlide = false;
+            },
+            afterLoad: function (anchorLink, index) {
+                arrowElem.removeClass('gone');
+                pageElem.removeClass('transition');
+                if (isSlide) {
+                    slideElem.removeClass('transition');
+                }
+            },
+            afterRender: function () {},
+            autoScrolling: true,
+        });
+    }
+
 });
 
 
