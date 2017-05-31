@@ -650,3 +650,9 @@ http://themeforest.net/licenses
     }
 
 }
+
+@media (max-width:1800px){
+    .dis_non5{
+        display: none;
+    }
+}

@@ -2078,6 +2078,18 @@ h3{
 
 }
 
+.arrow5 {
+    position: absolute;
+    bottom: 36%;
+    left: 24%;
+}
+
+.arrow6 {
+    position: absolute;
+    top: 36%;
+    right: 24%;
+}
+
 .arrow2 {
     position: absolute;
     top: 6%;
@@ -2131,6 +2143,17 @@ h3{
     position: absolute;
     left : 20%;
     bottom: 6%;
+}
+
+.ex3 {
+    position: absolute;
+    left : 50%;
+    top: 6%;
+}
+.ex4 {
+    position: absolute;
+    left : 20%;
+    top: 33%;
 }
 .ex2 {
     position: absolute;
