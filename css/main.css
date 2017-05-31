@@ -2358,3 +2358,11 @@ a:hover, a:focus {
     margin: 0 auto;
     flex-wrap: wrap;
 }
+
+.title_buy {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
