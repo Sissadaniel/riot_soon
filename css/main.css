@@ -49,7 +49,10 @@ http://themeforest.net/licenses
 
 
 /* initialization */
-
+html, body {
+  overflow-x:hidden;
+      position:relative;
+}
 
 
 html {
