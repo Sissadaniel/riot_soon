@@ -512,6 +512,7 @@ http://themeforest.net/licenses
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        margin-top: 40%;
     }
     .no_landscape {
         overflow: hidden;
