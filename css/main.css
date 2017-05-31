@@ -2444,3 +2444,7 @@ h4{
 .section {
     overflow-x: hidden;
 }
+
+landscape {
+    overflow-x: hidden
+}
