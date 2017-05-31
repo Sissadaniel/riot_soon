@@ -2399,3 +2399,18 @@ a:hover, a:focus {
 .card_width p {
     margin-bottom: 1rem
 }
+
+.zindexv {
+    z-index: 100;
+}
+
+.invisible_layer {
+
+width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  background:transparent;
+  z-index:999;
+}
