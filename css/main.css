@@ -56,8 +56,9 @@ html {
     color: #fff;
     font-size: 1em;
     line-height: 1.4;
-    background: #626262;
+    background: #f4ea0c;
     overflow-x: hidden !important;
+    position: relative;
 }
 
 ::-moz-selection {
@@ -2438,3 +2439,7 @@ h4{
     position: fixed;
 }
 
+
+over {
+    overflow-x: hidden !important;
+}
