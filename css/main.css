@@ -56,7 +56,7 @@ html {
     color: #fff;
     font-size: 1em;
     line-height: 1.4;
-    background: #f4ea0c;
+    background: transparent;
     overflow-x: hidden !important;
     position: relative;
 }
@@ -2440,6 +2440,3 @@ h4{
 }
 
 
-over {
-    overflow-x: hidden !important;
-}
