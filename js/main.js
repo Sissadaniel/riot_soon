@@ -194,8 +194,8 @@ $(document).ready(function () {
         //		responsive: 900,
         scrollOverflow: true,
         autoScrolling: true,
-		fitToSection: false,
-        slidesNavPosition: 'top',
+        touchSensitivity: 85,
+        bigSectionsDestination: 'top',
         css3: false,
         navigation: true,
         onLeave: function (index, nextIndex, direction) {

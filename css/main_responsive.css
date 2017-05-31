@@ -584,58 +584,47 @@ http://themeforest.net/licenses
         display: flex;
         justify-content: center;
     }
-
     .card_width {
-          margin-top: 20px;
+        margin-top: 20px;
         margin-bottom: 20px;
     }
 }
 
 @media (max-width: 374px) {
     .about_width {
-
-    padding: 18px;
-
-}
-
+        padding: 18px;
+    }
     .pad_video {
-    padding: 0px 13px 0px 13px;
-}
-
+        padding: 0px 13px 0px 13px;
+    }
     p {
-    margin-bottom: 0.25rem;
-}
-
+        margin-bottom: 0.25rem;
+    }
     .card_width {
-    margin-top: 5px;
-    margin-bottom: 0px;
+        margin-top: 5px;
+        margin-bottom: 0px;
         padding: 0px 0px 0px 0px;
-            max-width: 278px;
-}
-
-    .card_width h3{
+        max-width: 278px;
+        margin-right: 5px;
+    }
+    .card_width h3 {
         display: none;
     }
-
-    .card_width h2{
-        line-height:normal;
+    .card_width h2 {
+        line-height: normal;
+        font-size: 30px
     }
-
     .mar_top2 {
-    margin-top: 0px;
-}
-
+        margin-top: 0px;
+    }
     p {
         font-size: 0.75rem
     }
-
-    .mar_center{
-            margin-top: 0px;
-    margin-bottom: 7px
+    .mar_center {
+        margin-top: 0px;
+        margin-bottom: 7px
     }
-
     .mar_price {
-    margin-left: 25px;
-}
-
+        margin-left: 25px;
+    }
 }
