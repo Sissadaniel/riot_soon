@@ -49,10 +49,7 @@ http://themeforest.net/licenses
 
 
 /* initialization */
-html, body {
-  overflow-x:hidden;
-      position:relative;
-}
+
 
 
 html {
@@ -60,7 +57,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     background: #626262;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 ::-moz-selection {
@@ -121,7 +118,6 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
 }
 
 ul,
@@ -2433,8 +2429,6 @@ a:hover, a:focus {
 }
 
 
-
-
 h4{
    font-size:  40px;
     line-height: 35px
@@ -2444,10 +2438,3 @@ h4{
     position: fixed;
 }
 
-.section {
-    overflow-x: hidden;
-}
-
-landscape {
-    overflow-x: hidden
-}
