@@ -50,8 +50,6 @@ http://themeforest.net/licenses
 
 /* initialization */
 
-
-
 html {
     color: #fff;
     font-size: 1em;
@@ -1235,9 +1233,9 @@ strong,
     font-family: 'Akkurat';
 }
 
-h2{
-            font-weight: 600;
-        font-family: 'Akkurat';
+h2 {
+    font-weight: 600;
+    font-family: 'Akkurat';
     line-height: 1px;
     font-size: 40px
 }
@@ -1298,7 +1296,7 @@ h2{
     color: #000;
 }
 
-h3{
+h3 {
     font-family: 'Akkurat';
     font-weight: 500;
     font-size: 35px;
@@ -2065,8 +2063,6 @@ h3{
     margin: 0 auto
 }
 
-
-
 .pos_abs {
     position: absolute;
     height: 100vh;
@@ -2077,7 +2073,6 @@ h3{
     position: absolute;
     top: 6%;
     left: 4%;
-
 }
 
 .arrow5 {
@@ -2100,76 +2095,85 @@ h3{
 
 .arrow3 {
     position: absolute;
-    bottom : 6%;
+    bottom: 6%;
     right: 4%;
 }
 
 .arrow4 {
     position: absolute;
-    bottom : 6%;
+    bottom: 6%;
     left: 4%;
 }
 
 .zig1 {
     position: absolute;
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Chrome, Safari, Opera */
     transform: rotate(90deg);
-    top : -4%;
+    top: -4%;
     left: 8%;
 }
 
 .zig2 {
     position: absolute;
-    top : 40%;
+    top: 40%;
     left: -8%;
 }
+
 .zig3 {
     position: absolute;
-    -ms-transform: rotate(270deg); /* IE 9 */
-    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(270deg);
+    /* IE 9 */
+    -webkit-transform: rotate(270deg);
+    /* Chrome, Safari, Opera */
     transform: rotate(270deg);
-    bottom : -8%;
+    bottom: -8%;
     left: 60%;
 }
+
 .zig4 {
     position: absolute;
-    -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(180deg);
+    /* Chrome, Safari, Opera */
     transform: rotate(180deg);
-    right : -8%;
+    right: -8%;
     bottom: 60%;
 }
 
 .ex1 {
     position: absolute;
-    left : 20%;
+    left: 20%;
     bottom: 6%;
 }
 
 .ex3 {
     position: absolute;
-    left : 50%;
+    left: 50%;
     top: 6%;
 }
+
 .ex4 {
     position: absolute;
-    left : 20%;
+    left: 20%;
     top: 33%;
 }
+
 .ex2 {
     position: absolute;
-    right : 10%;
+    right: 10%;
     bottom: 26%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-
-    #fp-nav{
+    #fp-nav {
         display: none;
-    };
- }
-
+    }
+    ;
+}
 
 .text_center {
     text-align: center;
@@ -2184,7 +2188,7 @@ h3{
     align-items: center;
     color: white;
     font-size: 11px;
-       margin: 3px;
+    margin: 3px;
 }
 
 .button_black2 {
@@ -2201,8 +2205,6 @@ h3{
     margin-top: 20px
 }
 
-
-
 .button_white {
     background-color: white;
     width: 159px;
@@ -2218,13 +2220,12 @@ h3{
 .flex_2 {
     display: flex;
     justify-content: center;
-        padding-top: 20px;
-
-
+    padding-top: 20px;
 }
+
 .flex_3 {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: 30px;
     flex-wrap: wrap
 }
@@ -2234,43 +2235,63 @@ h3{
     margin: 0 auto;
 }
 
-      .about_width {
-          max-width: 600px;
+.about_width {
+    max-width: 600px;
     margin: 0 auto;
-          padding: 40px;
-          background-color: white;
-          border: solid 1px #f4ea0c;
-          position:relative;
-    }
+    padding: 40px;
+    background-color: white;
+    border: solid 1px #f4ea0c;
+    position: relative;
+}
 
-     .card_width {
-          max-width: 310px;
-          padding: 0px 12px 40px 12px;
-          background-color: white;
-          border: solid 1px #f4ea0c;
-          position:relative;
-    }
+.card_width {
+    max-width: 310px;
+    padding: 0px 12px 40px 12px;
+    background-color: white;
+    border: solid 1px #f4ea0c;
+    position: relative;
+}
 
-  .puerto_width {
-          max-width: 600px;
+.card_width2 {
+    width: 200px;
+
+    border: solid 1px #f4ea0c;
+    position: relative;
+    background-color: #faf45f
+}
+
+.card_widthz {
+    width: 200px;
+
+    border: solid 1px #f4ea0c;
+    position: relative;
+    background-color: transparent
+}
+
+.card_title {
+    width: 200px;
+    border: solid 1px #f4ea0c;
+    position: relative;
+    background-color: transparent;
+    font-family: 'Akkurat';
+    color: white;
+    font-size: 35px
+}
+
+.puerto_width {
+    max-width: 600px;
     margin: 0 auto;
-          background-color: white;
-          border: solid 1px #f4ea0c;
-          position:relative;
-    }
-
-
-
-
+    background-color: white;
+    border: solid 1px #eae238;
+    position: relative;
+}
 
 .row1_contact {
     max-width: 360px;
     margin: 0 auto;
 }
 
-pmor {
-
-}
+pmor {}
 
 .pmorelos {
     font-size: 17px;
@@ -2285,17 +2306,15 @@ pmor {
     margin-left: 5px;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #f4ea0b;
 }
-
-
 
 .riot_logo {
     position: relative;
     left: -50%;
     margin-top: 15vh;
-
 }
 
 .abs_pos {
@@ -2309,56 +2328,49 @@ a:hover, a:focus {
 }
 
 .scale_info {
-    -ms-transform: scale(1); /* IE 9 */
-    -webkit-transform: scale(1); /* Safari */
+    -ms-transform: scale(1);
+    /* IE 9 */
+    -webkit-transform: scale(1);
+    /* Safari */
     transform: scale(1);
 }
 
-#container{
+#container {}
 
-}
-.page_content{
-
-
-}
+.page_content {}
 
 .pad_about {
     padding-right: 25px;
     padding-left: 20px;
-
 }
 
 .pad_puerto {
     padding-right: 25px;
     padding-left: 20px;
-
 }
 
 .zig_yel {
-  position: absolute;
+    position: absolute;
     right: -165px;
-    top:30px;
+    top: 30px;
 }
 
 .mar_top {
     margin-top: 25px
 }
+
 .mar_top2 {
     margin-top: 35px
 }
 
-
 .full_video {
     width: 100%;
     height: 300px;
-
 }
 
 .pad_video {
-   padding: 0px 30px 0px 30px;
+    padding: 0px 30px 0px 30px;
 }
-
-
 
 .center_text {
     text-align: center;
@@ -2371,9 +2383,6 @@ a:hover, a:focus {
     margin-bottom: 10px;
 }
 
-
-
-
 .card_container {
     display: flex;
     justify-content: space-between;
@@ -2381,6 +2390,18 @@ a:hover, a:focus {
     margin: 0 auto;
     flex-wrap: wrap;
 }
+
+.card_container2 {
+    display: flex;
+    justify-content: space-around;
+    width: 1030px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+
+}
+
+
 
 .title_buy {
     color: black;
@@ -2391,23 +2412,21 @@ a:hover, a:focus {
 }
 
 .card_width {
-
     padding: 0px 20px 0px 20px;
-
 }
-
 
 .mar_top2 {
     margin-top: 0px;
 }
-    .mar_center {
 
+.mar_center {
     margin-top: 0px;
 }
 
 .mar_price {
     margin-left: 25px;
 }
+
 .pad_left {
     padding-left: 10px;
     padding-top: 0px;
@@ -2429,9 +2448,8 @@ a:hover, a:focus {
     z-index: 100;
 }
 
-
-h4{
-   font-size:  40px;
+h4 {
+    font-size: 40px;
     line-height: 35px
 }
 
@@ -2439,8 +2457,80 @@ h4{
     position: fixed;
 }
 
-
-
 .transparent {
     display: none;
 }
+
+.card_border {
+    border: 6px solid black;
+    margin: 7px 0px
+}
+.card_bordert {
+    border: 6px solid transparent;
+    margin: 7px 0px
+}
+
+
+.card_height {
+    height: 45px;
+}
+
+.card_height6 {
+    height: 353px;
+}
+
+.card_height5 {
+    height: 95px;
+}
+
+.card_height4 {
+    height: 249px;
+}
+
+.card_height2 {
+    height: 197px;
+}
+
+.card_height3 {
+    height: 45px;
+}
+
+.flex_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+b {
+    font-family: 'Akkurat-Bold';
+}
+
+.back_zig {
+    background-image: url(../img/patron.png);
+    background-position: center;
+    background-size: 107%
+}
+
+.margin_auto {
+    margin: 7px auto;
+}
+
+
+
+.max_w {
+    max-width: 300px
+}
+
+.smpad_left {
+    padding-right: 20%
+}
+
+.slick-prev:before, .slick-next:before{
+    color: black !important;
+}
+
+
+
+
+
+

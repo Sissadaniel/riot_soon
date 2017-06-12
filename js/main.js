@@ -190,7 +190,7 @@ $(document).ready(function () {
     if ($(window).width() < 650) {
         $('#mainpage').fullpage({
             menu: '#qmenu',
-            anchors: ['home', 'register', 'about-us', 'contact', 'puerto'],
+            anchors: ['home', 'register', 'about-us', 'contact', 'puerto','calendario'],
             //        verticalCentered: false,
             //        resize : false,
             //		responsive: 900,
@@ -220,7 +220,7 @@ $(document).ready(function () {
     } else {
         $('#mainpage').fullpage({
             menu: '#qmenu',
-            anchors: ['home', 'register', 'about-us', 'contact', 'puerto'],
+            anchors: ['home', 'register', 'about-us', 'contact', 'puerto','calendario'],
             //        verticalCentered: false,
             //        resize : false,
             //		responsive: 900,
