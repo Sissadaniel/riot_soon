@@ -2270,7 +2270,7 @@ h3 {
 
 .card_title {
     width: 200px;
-    border: solid 1px #f4ea0c;
+    border: solid 0px #f4ea0c;
     position: relative;
     background-color: transparent;
     font-family: 'Akkurat';
