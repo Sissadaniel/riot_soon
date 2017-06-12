@@ -2529,8 +2529,17 @@ b {
     color: black !important;
 }
 
+.slick-next:before {
+    content:url(../img/next.slick.png) !important;
+}
+.slick-prev:before {
+    content:url(../img/prev.slick.png)!important;
+}
 
+.slick-prev {
+    left: -38px !important;
+}
 
-
-
-
+.slick-next {
+    right: -17px !important;
+}
