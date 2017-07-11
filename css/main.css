@@ -2205,6 +2205,20 @@ h3 {
     margin-top: 20px
 }
 
+.button_faqs {
+    background-color: black;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
 .button_white {
     background-color: white;
     width: 159px;
@@ -2282,6 +2296,14 @@ h3 {
     max-width: 600px;
     margin: 0 auto;
     background-color: white;
+    border: solid 1px #eae238;
+    position: relative;
+}
+
+.faqs_width {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: transparent;
     border: solid 1px #eae238;
     position: relative;
 }
@@ -2386,6 +2408,14 @@ a:focus {
 .card_container {
     display: flex;
     justify-content: space-between;
+    max-width: 630px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.faqs_container {
+    display: flex;
+    justify-content:space-between;
     max-width: 630px;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -2542,4 +2572,46 @@ b {
 
 .slick-next {
     right: -17px !important;
+}
+
+.pad_faqs1 {
+    margin-left: 16px
+}
+
+.pad_faqs2 {
+    margin-right: 16px
+}
+
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0px;
+}
+
+.panel {
+    border-style: solid;
+    border-width: 0px;
+    border-color: #d8d8d8;
+    padding: 0px;
+    padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    color: #333;
+}
+
+.container2 {
+    width: 750px;
+}
+
+.font_faqs {
+    font-size: 14px;
+}
+
+
+.panel-heading {
+    padding: 8px 15px;
+
+}
+
+.panel h4{
+
+  margin-bottom: 0.1rem;
 }

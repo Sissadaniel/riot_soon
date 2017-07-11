@@ -597,6 +597,12 @@ http://themeforest.net/licenses
         display: flex;
         justify-content: center;
     }
+
+      .faqs_container {
+        display: flex;
+          justify-content: space-around;
+        /*justify-content: center;*/
+    }
     .card_width {
         margin-top: 20px;
         margin-bottom: 20px;
